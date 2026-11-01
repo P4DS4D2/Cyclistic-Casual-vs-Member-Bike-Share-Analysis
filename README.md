@@ -190,25 +190,38 @@ Dashboard features include:
 
 ## Repository structure
 
-```text
-cyclistic-bike-share-case-study/
+```Cyclistic-Casual-vs-Member-Bike-Share-Analysis/
+│
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── src/                          # Run scripts in order from the repository root
-│   ├── phase2_prepare.py
-│   ├── phase3_process.py
-│   ├── phase4_analyze.py
-│   ├── phase5_visualize.py
-│   └── phase5_tableau_export.py
-├── data/raw/                     # Local input folder; raw Divvy files are not committed
-├── charts/                       # Five PNG charts and alt_text.md
-├── summary/                      # Generated summary tables (CSV)
 ├── cleaning_log.csv
+│
+├── notebooks/
+│   └── Cyclistic Casual vs Member Bike Share Analysis.ipynb
+│
+├── charts/
+│   ├── 01_seasonality.png
+│   ├── 02_weekday.png
+│   ├── 03_hourly.png
+│   ├── 04_ride_length.png
+│   ├── 05_top_stations.png
+│   └── alt_text.md
+│
+├── summary/
+│   ├── 02_monthly_rides.csv
+│   ├── 03_weekday.csv
+│   ├── 04_hourly_profile.csv
+│   ├── 05_duration_summary.csv
+│   └── 07_top_casual_start_stations.csv
+│
+├── data/
+│   ├── DATASET_README.txt
+│   └── raw/                  # Local dataset storage; not committed
+│
 └── docs/
-    ├── Cyclistic_Casual_vs_Member_Findings.pptx
-    ├── executive_summary.pdf
-    └── tableau_build_guide.pdf
+    ├── Cyclistic Casual vs Member Findings.pptx
+    └── Executive Summary.pdf
 ```
 
 The Kaggle notebook is also available online: [Cyclistic Bike-Share Case Study on Kaggle](https://www.kaggle.com/code/hazaimihamdani/cyclistic-bike-share-how-do-casual-riders-and-mem).
