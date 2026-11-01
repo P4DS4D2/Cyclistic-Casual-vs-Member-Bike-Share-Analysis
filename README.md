@@ -190,7 +190,8 @@ Dashboard features include:
 
 ## Repository structure
 
-```Cyclistic-Casual-vs-Member-Bike-Share-Analysis/
+```
+Cyclistic-Casual-vs-Member-Bike-Share-Analysis/
 │
 ├── README.md
 ├── requirements.txt
