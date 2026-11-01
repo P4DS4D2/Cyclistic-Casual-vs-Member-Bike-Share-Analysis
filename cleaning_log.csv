@@ -1,0 +1,9 @@
+step,rows_affected,rows_remaining,action,rule
+0. Raw combined (Q1-Q4),0,3818004,none,"Loaded 4 quarterly files, harmonized schema"
+1. Duplicate ride_id,0,3818004,rows dropped,Same ride_id appears more than once
+2. End before start,13,3817991,rows dropped,ended_at < started_at (all on 2019-11-03 DST change)
+3. Test/warehouse stations,172,3817819,rows dropped,Station name matches /TEST|HQ|WAREHOUSE|LBS/i
+4a. Ride under 60s,0,3817819,rows dropped,Guard rule (likely false starts)
+4b. Ride over 24h,1752,3816067,rows dropped,Likely unreturned or lost bikes
+5. Implausible birth year,1042,3816067,values set to NaN,birthyear outside 1930-2005
+6. Canonical station names,70714,3816067,values standardized,24 station IDs had multiple names; mapped each ID to its most frequent name
