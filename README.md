@@ -1,5 +1,3 @@
-# Cyclistic-Casual-vs-Member-Bike-Share-Analysis
-
 # Cyclistic Bike-Share Case Study: Converting Casual Riders into Annual Members
 
 A full-cycle data analytics capstone using **3.8 million Divvy bike-share trips from 2019**. The project follows the Google Data Analytics workflow — **Ask → Prepare → Process → Analyze → Share → Act** — using Python, pandas, Seaborn and Tableau.
@@ -67,23 +65,23 @@ The project is descriptive. It identifies usage patterns and develops recommenda
 
 **1. Monthly seasonality**
 
-![Line chart of monthly rides in 2019. Casual rides rise from about 3k in February to about 187k in August, when casual riders are 31.6% of all rides. Member rides stay between about 94k and 403k per month.](charts/01_seasonality.png)
+![Line chart of monthly rides in 2019. Casual rides rise from about 3k in February to about 187k in August, when casual riders are 31.6% of all rides. Member rides stay between about 94k and 403k per month.](01_seasonality.png)
 
 **2. Weekday patterns**
 
-![Grouped bar chart by weekday. Casual rides peak on Saturday at about 24% and Sunday at 19%. Member rides are 15-17% per weekday and 9-10% per weekend day.](charts/02_weekday.png)
+![Grouped bar chart by weekday. Casual rides peak on Saturday at about 24% and Sunday at 19%. Member rides are 15-17% per weekday and 9-10% per weekend day.](02_weekday.png)
 
 **3. Hourly riding patterns**
 
-![Two line charts of rides by start hour. On weekdays members peak at 8am and 5pm; casual riders peak at 5pm with no morning peak. On weekends both groups peak between noon and 3pm.](charts/03_hourly.png)
+![Two line charts of rides by start hour. On weekdays members peak at 8am and 5pm; casual riders peak at 5pm with no morning peak. On weekends both groups peak between noon and 3pm.](03_hourly.png)
 
 **4. Ride duration**
 
-![Grouped bar chart of ride-length buckets. Most member rides are under 20 minutes; 41% of casual rides exceed 30 minutes. Median ride: casual 25.8 min, member 9.8 min.](charts/04_ride_length.png)
+![Grouped bar chart of ride-length buckets. Most member rides are under 20 minutes; 41% of casual rides exceed 30 minutes. Median ride: casual 25.8 min, member 9.8 min.](04_ride_length.png)
 
 **5. Top casual starting stations**
 
-![Horizontal bar chart of the ten start stations with the most casual rides, led by Streeter Dr and Grand Ave with 53,071 rides. At the top two stations about 78 to 79 percent of all rides are casual.](charts/05_top_stations.png)
+![Horizontal bar chart of the ten start stations with the most casual rides, led by Streeter Dr and Grand Ave with 53,071 rides. At the top two stations about 78 to 79 percent of all rides are casual.](05_top_stations.png)
 
 ### Additional observations
 
